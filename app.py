@@ -139,7 +139,6 @@ def main() -> None:
             return
 
         st.markdown("Damage Type | Severity | Car Part")
-        st.markdown("---|---|---")
         for item in detections:
             st.markdown(f"{item['damage_type']} | {item['severity']} | {item['car_part']}")
 
