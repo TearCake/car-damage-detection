@@ -3,4 +3,3 @@ ultralytics
 opencv-python
 numpy
 Pillow
-libgl1
